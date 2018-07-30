@@ -1,0 +1,353 @@
+<html>
+<head>
+<title>BeforeClasses</title>
+<script type="text/javascript">
+function check(){
+var q1=document.qes1.q1.value;
+var q2=document.qes1.q2.value;
+var q3=document.qes1.q3.value;
+var q4=document.qes1.q4.value;
+var q5=document.qes1.q5.value;
+var q6=document.qes1.q6.value;
+var q7=document.qes1.q7.value;
+var q8=document.qes1.q8.value;
+var q9=document.qes1.q9.value;
+var q10=document.qes1.q10.value;
+var q11=document.qes1.q11.value;
+var q12=document.qes1.q12.value;
+var q13=document.qes1.q13.value;
+var q14=document.qes1.q14.value;
+var q15=document.qes1.q15.value;
+var q16=document.qes1.q16.value;
+var q17=document.qes1.q17.value;
+var q18=document.qes1.q18.value;
+var q19=document.qes1.q19.value;
+var q20=document.qes1.q20.value;
+ var count=0;
+if(q1=="c"){
+count++;
+}
+if(q2=="d"){
+count++;
+}
+if(q3=="b"){
+count++;
+}
+if(q4=="d"){
+count++;
+}
+if(q5=="b"){
+count++;
+}
+if(q6=="b"){
+count++;
+}
+if(q7=="b"){
+count++;
+}
+if(q8=="c"){
+count++;
+}
+if(q9=="b"){
+count++;
+}
+if(q10=="a"){
+count++;
+}
+if(q11=="c"){
+count++;
+}
+if(q12=="c"){
+count++;
+}
+if(q13=="c"){
+count++;
+}
+if(q14=="a"){
+count++;
+}
+if(q15=="b"){
+count++;
+}
+if(q16=="d"){
+count++;
+}
+if(q17=="c"){
+count++;
+}
+if(q18=="a"){
+count++;
+}
+if(q19=="a"){
+count++;
+}
+if(q20=="b"){
+count++;
+}
+alert("You got " + count + " marks");
+}
+</script>
+<style>
+body{
+margin:0;
+background:url('img.jpg');
+background-size:cover;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 1px;
+    text-align: center;
+height:50px;
+}
+.nav{
+width:100%;
+background:#000033;
+height:80px;
+margin-top:50px;
+opacity:0.6;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+position:absolute;
+}
+li{
+float:left;
+margin-top:20px;
+}
+a{
+width:100px;
+color:white;
+display:block;
+text-decoration:none;
+font-size:20px;
+text-align: center;
+padding:10px;
+padding-left:100px;
+border-radius:10px;
+font-family:century Gothic;
+font-weight:bold;
+}
+.qiz {
+  font-style: italic;
+ font-size: 20px;
+  border: 25px solid gray;
+  width:700px;
+  height:380px;
+  margin-top:50px;
+  margin-left:300px;
+  } 
+.qes{
+padding:6px;
+}
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+div.over {
+    background-color: white;
+    width:700px;
+    height: 380px;
+    overflow: auto;
+
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Header</h1>
+  <p></p>
+</div>
+<div class="nav">
+<ul>
+<li><a href="home.html">Home</a><li>
+<li><a href="https://www.google.com/">blog</a><li>
+<li><a href="#">YourCode</a><li>
+<li><a href="quizzes.html">Quizzes</a><li>
+<li><a href="#">About</a><li>
+</ul>
+</div>
+<div class="qiz">
+<div class="over">
+<form class="qes" name="qes1">
+<p>Q1.which year C programming is devloped ?.</P>
+<input type="radio"  style="zoom:1.5;"  name="q1" value="a">1992<br>
+<input type="radio"   style="zoom:1.5;" name="q1" value="b">1985<br>
+<input type="radio"  style="zoom:1.5;" name="q1" value="c">1972<br>
+<input type="radio" style="zoom:1.5;" name="q1" value="d">1982<br>
+Status:<progress min="0"max="100"value="4" ></progress>
+<br>
+<p>Q2.who is designed and write C language.</p>
+<input type="radio"  style="zoom:1.5;"  name="q2" value="a">Bjarne Stroustrup<br>
+<input type="radio"   style="zoom:1.5;" name="q2" value="b">James Gosling<br>
+<input type="radio"  style="zoom:1.5;" name="q2" value="c">Hal Abelson<br>
+<input type="radio" style="zoom:1.5;" name="q2" value="d"> Dennis Ritchie<br>
+Status:<progress min="0"max="100"value="8" ></progress>
+<br>
+<p>Q3.which one is not a  C language keyword.</p>
+<input type="radio"  style="zoom:1.5;"  name="q3" value="a">Auto<br>
+<input type="radio"   style="zoom:1.5;" name="q3" value="b">main<br>
+<input type="radio"  style="zoom:1.5;" name="q3" value="c">Break<br>
+<input type="radio" style="zoom:1.5;" name="q3" value="d"> void<br>
+Status:<progress min="0"max="100"value="12" ></progress>
+<br>
+<p>Q4.C can be used on.</p>
+<input type="radio"  style="zoom:1.5;"  name="q4" value="a">Only MS-DOS<br>
+<input type="radio"   style="zoom:1.5;" name="q4" value="b">Linex Operating System<br>
+<input type="radio"  style="zoom:1.5;" name="q4" value="c">Only Windows OS<br>
+<input type="radio" style="zoom:1.5;" name="q4" value="d"> All the above<br>
+Status:<progress min="0"max="100"value="16" ></progress>
+<br>
+<p>Q5.Output of code printf("%d%d"printf("Hello") printf("Bye"));</p>
+<input type="radio"  style="zoom:1.5;"  name="q5" value="a">HelloBye<br>
+<input type="radio"   style="zoom:1.5;" name="q5" value="b">ByeHello<br>
+<input type="radio"  style="zoom:1.5;" name="q5" value="c">Hello Bye<br>
+<input type="radio" style="zoom:1.5;" name="q5" value="d">Syntex error <br>
+Status:<progress min="0"max="100"value="20" ></progress>
+<br>
+<p>Q6.C program are converted into machine language with the help of </p>
+<input type="radio"  style="zoom:1.5;"  name="q6" value="a">An Editor<br>
+<input type="radio"   style="zoom:1.5;" name="q6" value="b">A compiler<br>
+<input type="radio"  style="zoom:1.5;" name="q6" value="c">An operating system<br>
+<input type="radio" style="zoom:1.5;" name="q6" value="d">None of the above <br>
+Status:<progress min="0"max="100"value="24" ></progress>
+<br>
+<p>Q7. Evaluate i=2*3/4+4/4+8-2+5/8 </p>
+<input type="radio"  style="zoom:1.5;"  name="q7" value="a">7<br>
+<input type="radio"   style="zoom:1.5;" name="q7" value="b">8<br>
+<input type="radio"  style="zoom:1.5;" name="q7" value="c">12<br>
+<input type="radio" style="zoom:1.5;" name="q7" value="d">None of the above <br>
+Status:<progress min="0"max="100"value="28" ></progress>
+<br>
+<p>Q8. Evaluate i=3/2*4+3/8+3  </p>
+<input type="radio"  style="zoom:1.5;"  name="q8" value="a">7<br>
+<input type="radio"   style="zoom:1.5;" name="q8" value="b">8<br>
+<input type="radio"  style="zoom:1.5;" name="q8" value="c">3<br>
+<input type="radio" style="zoom:1.5;" name="q8" value="d">None of the above <br>
+Status:<progress min="0"max="100"value="32" ></progress>
+<br>
+<p>Q9. int i=5 , j; 
+           j=i++;
+    printf("%d%d",i,j);</p>
+<input type="radio"  style="zoom:1.5;"  name="q9" value="a">6,6<br>
+<input type="radio"   style="zoom:1.5;" name="q9" value="b">6,5<br>
+<input type="radio"  style="zoom:1.5;" name="q9" value="c">5,6<br>
+<input type="radio" style="zoom:1.5;" name="q9" value="d">None of the above <br>
+Status:<progress min="0"max="100"value="36" ></progress>
+<br>
+<p>Q10. Correct Order of Evaluation  arithmetic expression in 'C'. </p>
+<input type="radio"  style="zoom:1.5;"  name="q10" value="a">*,/,+,-<br>
+<input type="radio"   style="zoom:1.5;" name="q10" value="b">/,*,-,+<br>
+<input type="radio"  style="zoom:1.5;" name="q10" value="c">%,/,*,-,+<br>
+<input type="radio" style="zoom:1.5;" name="q10" value="d">None of the above <br>
+Status:<progress min="0"max="100"value="40" ></progress>
+<br>
+<p>Q11.How much keybord in c. </p>
+<input type="radio"  style="zoom:1.5;"  name="q11" value="a">21<br>
+<input type="radio"   style="zoom:1.5;" name="q11" value="b">36<br>
+<input type="radio"  style="zoom:1.5;" name="q11" value="c">32<br>
+<input type="radio" style="zoom:1.5;" name="q11" value="d">28 <br>
+Status:<progress min="0"max="100"value="44" ></progress>
+<br>
+<p>Q12.printf("%d",printf("Hello")); </p>
+<input type="radio"  style="zoom:1.5;"  name="q12" value="a">Hello<br>
+<input type="radio"   style="zoom:1.5;" name="q12" value="b">5<br>
+<input type="radio"  style="zoom:1.5;" name="q12" value="c">Hello5<br>
+<input type="radio" style="zoom:1.5;" name="q12" value="d">Error <br>
+Status:<progress min="0"max="100"value="48" ></progress>
+<br>
+<p>Q13. int i; i=printf("hello");
+  printf("%d",i); </p>
+<input type="radio"  style="zoom:1.5;"  name="q13" value="a">Hello<br>
+<input type="radio"   style="zoom:1.5;" name="q13" value="b">5<br>
+<input type="radio"  style="zoom:1.5;" name="q13" value="c">Hello5<br>
+<input type="radio" style="zoom:1.5;" name="q13" value="d">Error <br>
+Status:<progress min="0"max="100"value="52" ></progress>
+<br>
+<p>Q14. int i=2, j=10, ; 
+j=i++<++j<++i;  
+printf("%d%d",i,j); </p>
+<input type="radio"  style="zoom:1.5;"  name="q14" value="a">4 1<br>
+<input type="radio"   style="zoom:1.5;" name="q14" value="b">2 10<br>
+<input type="radio"  style="zoom:1.5;" name="q14" value="c">4 0<br>
+<input type="radio" style="zoom:1.5;" name="q14" value="d">Error <br>
+Status:<progress min="0"max="100"value="56" ></progress>
+<br>
+<p>Q15.int i=2, j=10, k;
+ printf("++i")>printf("++j"); 
+printf("%d",k); </p>
+<input type="radio"  style="zoom:1.5;"  name="q15" value="a">++i ++j 1<br>
+<input type="radio"   style="zoom:1.5;" name="q15" value="b">++i ++j 0<br>
+<input type="radio"  style="zoom:1.5;" name="q15" value="c">3 3 1<br>
+<input type="radio" style="zoom:1.5;" name="q15" value="d">0 0 1 <br>
+Status:<progress min="0"max="100"value="60" ></progress>
+<br>
+<p>Q16.int i=5,j=7,k=6,l=3; 
+i=i++*++j/++i+l++*++k+j++;  
+printf(" %d %d %d %d",i,j,k,l);
+ </p>
+<input type="radio"  style="zoom:1.5;"  name="q16" value="a">33,9,7,4<br>
+<input type="radio"   style="zoom:1.5;" name="q16" value="b">33,4,7,4<br>
+<input type="radio"  style="zoom:1.5;" name="q16" value="c">34,4,7,4<br>
+<input type="radio" style="zoom:1.5;" name="q16" value="d">34,9,7,4<br>
+Status:<progress min="0"max="100"value="64" ></progress>
+<br>
+<p>Q17.int x='a', a='x';
+ if(a==x) 
+printf("%c",a); </p>
+<input type="radio"  style="zoom:1.5;"  name="q17" value="a">a<br>
+<input type="radio"   style="zoom:1.5;" name="q17" value="b">x<br>
+<input type="radio"  style="zoom:1.5;" name="q17" value="c">black screen<br>
+<input type="radio" style="zoom:1.5;" name="q17" value="d">Error<br>
+Status:<progress min="0"max="100"value="68" ></progress>
+<br>
+<p>Q18.int i=2, j=3; if(i < j) printf("%d",i); printf("%d",j) ; </p><br>
+<input type="radio"  style="zoom:1.5;"  name="q18" value="a">2 3<br>
+<input type="radio"   style="zoom:1.5;" name="q18" value="b">2<br>
+<input type="radio"  style="zoom:1.5;" name="q18" value="c">3<br>
+<input type="radio" style="zoom:1.5;" name="q18" value="d">Error<br>
+Status:<progress min="0"max="100"value="76" ></progress>
+<br>
+<p>Q19. if(!printf("Hello")) {
+    printf("Hello"); 
+}
+ else {
+    printf("Bye");
+}</p>
+<input type="radio"  style="zoom:1.5;"  name="q19" value="a">HelloBye<br>
+<input type="radio"   style="zoom:1.5;" name="q19" value="b">Hello<br>
+<input type="radio"  style="zoom:1.5;" name="q19" value="c">Bye<br>
+<input type="radio" style="zoom:1.5;" name="q19" value="d">Error<br>
+Status:<progress min="0"max="100"value="80" ></progress>
+<br>
+<p>Q20.  float f=5.77;
+if(f==5.77){
+   printf("equal");
+} 
+else{
+  printf("not equal");
+ } 
+ </p>
+<input type="radio"  style="zoom:1.5;"  name="q20" value="a">equal<br>
+<input type="radio"   style="zoom:1.5;" name="q20" value="b">notequal<br>
+<input type="radio"  style="zoom:1.5;" name="q20" value="c">eqal<br>
+<input type="radio" style="zoom:1.5;" name="q20" value="d">Error<br>
+
+Status:<progress min="0"max="100"value="84" ></progress>
+<input type="submit" class="button" onclick="check()" style="position:relative;left:10px;top:90px;" >
+<br>
+</form>
+</div>
+</div>
+
+</body>
+</html>

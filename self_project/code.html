@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>
+BeforeClasses
+</title>
+<style>
+body{
+margin:0;
+background-color:rgb(201, 76, 76);
+background-size:cover;
+}
+.nav{
+width:100%;
+background:#000033;
+height:80px;
+margin-top:50px;
+opacity:0.6;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+position:absolute;
+}
+li{
+float:left;
+margin-top:20px;
+}
+a{
+width:100px;
+color:white;
+display:block;
+text-decoration:none;
+font-size:20px;
+text-align: center;
+padding:10px;
+padding-left:100px;
+border-radius:10px;
+font-family:century Gothic;
+font-weight:bold;
+}
+div.java1 {
+    background-color: white;
+    width:600px;
+    height: 550px;
+    overflow: auto;
+
+}
+.bod{
+    border-left: 6px solid green;
+    background-color: lightgrey;
+    width: 600px;
+    height: 550px;
+}
+.code{
+padding:10px;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="nav">
+<ul>
+<li><a href="home.html">Home</a><li>
+<li><a href="https://www.google.com/">blog</a><li>
+<li><a href="#">YourCode</a><li>
+<li><a href="quizzes.html">Quizzes</a><li>
+<li><a href="#">About</a><li>
+</ul>
+</div>
+<h1>count no file</h1>
+<div class="bod">
+<div class="java1">
+<div class="code">
+<p>import java.io.*;</p>
+<p>class subdemo{</p>
+<p>int jpg=0,txt=0,mp3=0;</p>
+<p>void demo(String path){</p>
+<p>File f = new File(path);</p>
+<p>String s[]=f.list();</p>
+<p>for(int i=0;i<s.length;i++){</p>
+<p>String cpath=path + "/"+s[i];</p>
+<p>File fr = new File(cpath);</p>
+<p>if(fr.isDirectory()){</p>
+<p>demo(cpath);</p>
+<p>}</p>
+<p>else if(fr.isFile())</p>
+<p>{</p>
+<p>if(s[i].endsWith(".jpg")){</p>
+<p>jpg++;</p>
+<p>}</p>
+<p>else if(s[i].endsWith(".txt")){</p>
+<p>txt++;</p>
+<p>}</p>
+<p>else if(s[i].endsWith(".mp3")){</p>
+<p>mp3++;</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>public static void main (String [] arr){</p>
+<p>subdemo d=new subdemo();</p>
+<p>d.demo("G:/jo");</p>
+<p>System.out.println("mp3="+d.mp3);</p>
+<p>System.out.println("txt="+d.txt);</p>
+<p>System.out.println("jpg="+d.jpg);</p>
+<p>}</p>
+<p>}</p>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+</body>
+</html>
